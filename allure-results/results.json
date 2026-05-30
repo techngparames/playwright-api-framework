@@ -1,0 +1,209 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "e-commerce-end-to-end-flow-(saucedemo);user-completes-full-e-commerce-flow",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User completes full e-commerce flow",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 651142300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "step-definitions\\login.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1207737399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "step-definitions\\login.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186566600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be navigated to products page",
+            "match": {
+              "location": "step-definitions\\login.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945106600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "User applies filter high to low",
+            "match": {
+              "location": "step-definitions\\product.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49525200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User adds two products to cart",
+            "match": {
+              "location": "step-definitions\\product.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 742017699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User opens cart",
+            "match": {
+              "location": "step-definitions\\cart.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91595299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Cart should have 2 products",
+            "match": {
+              "location": "step-definitions\\cart.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4723500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "User clicks checkout",
+            "match": {
+              "location": "step-definitions\\cart.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86160600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User enters checkout details \"John\" \"Doe\" \"600001\"",
+            "match": {
+              "location": "step-definitions\\checkout.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140048000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User continues checkout",
+            "match": {
+              "location": "step-definitions\\checkout.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63764699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User finishes order",
+            "match": {
+              "location": "step-definitions\\checkout.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77456100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User goes back to home",
+            "match": {
+              "location": "step-definitions\\checkout.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106829199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User logs out",
+            "match": {
+              "location": "step-definitions\\checkout.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1169513799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 350087899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "e-commerce-end-to-end-flow-(saucedemo)",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "E-commerce End to End Flow (SauceDemo)",
+    "tags": [],
+    "uri": "features\\e2e.feature"
+  }
+]
