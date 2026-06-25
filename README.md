@@ -39,9 +39,17 @@ npm install allure-commandline --save-dev
 
 
 
+### Run Cucumber
+
+npx cucumber-js
+
+
 ### Run  All Tests
 
+
+
 npm test
+ npm run test:firefox
 
 ### Run Playwright API tests
 

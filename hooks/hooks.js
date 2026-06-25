@@ -34,3 +34,17 @@ Before(async function () {
     page = await context.newPage();
     this.page = page;
 });
+
+After(async function () {
+    if (page) {
+        await page.close();
+    }
+
+    if (context) {
+        await context.close();
+    }
+
+    if (browser) {
+        await browser.close();
+    }
+});
